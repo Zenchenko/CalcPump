@@ -1,0 +1,1 @@
+var e=!1,n=function(){document.getElementById("rangeValue").innerHTML=range.value};range.addEventListener("mousedown",function(){e=!0}),range.addEventListener("mousemove",function(){e&&n()});
